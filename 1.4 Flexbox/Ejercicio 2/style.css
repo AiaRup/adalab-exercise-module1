@@ -1,0 +1,12 @@
+.flex__container {
+  display: flex;
+
+  background-color: #444;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex__item {
+  background-color: #399;
+  margin: 5px;
+}

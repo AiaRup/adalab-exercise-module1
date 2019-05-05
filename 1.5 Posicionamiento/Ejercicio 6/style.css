@@ -1,0 +1,9 @@
+.cookies {
+  background-color: yellow;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

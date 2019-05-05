@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page__main {
+  flex-grow: 1;
+  background-color: gray;
+}
+
+.page__header {
+  background-color: #444;
+}
+
+.page_footer {
+  background-color: #923;
+  /* margin-top: auto; */
+}

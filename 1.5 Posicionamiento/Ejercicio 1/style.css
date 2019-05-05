@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  background-color: cyan;
+  margin: 0;
+  list-style: none;
+}
+.navigation__item {
+  display: inline-block;
+  margin: 6px;
+}

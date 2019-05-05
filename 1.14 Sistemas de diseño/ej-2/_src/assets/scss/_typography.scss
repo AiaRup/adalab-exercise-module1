@@ -1,0 +1,23 @@
+.txt-primary {
+  color: $color-primary;
+  &:hover {
+    color: $color-primary-hover;
+  }
+}
+
+.txt-secondary {
+  color: $color-secondary;
+  &:hover {
+    color: $color-secondary-hover;
+  }
+}
+
+.txt-lg {
+  font-size: $font-size-h1;
+}
+.txt-md {
+  font-size: $font-size-h3;
+}
+.txt-sm {
+  font-size: $font-size-h6;
+}

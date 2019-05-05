@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #777;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  position: relative;
+  color: black;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #555;
+  padding: 10px;
+  display: none;
+  width: 400px;
+  height: 200px;
+}
+
+a:hover .tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip__header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

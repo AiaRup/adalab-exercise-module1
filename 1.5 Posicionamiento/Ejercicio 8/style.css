@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  border-bottom: 1px solid #666;
+  padding: 20px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.container p {
+  color: #666;
+  margin: 0;
+}
+
+.container button {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

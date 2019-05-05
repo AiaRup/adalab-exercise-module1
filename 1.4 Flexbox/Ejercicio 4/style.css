@@ -1,0 +1,22 @@
+.flex__container {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.flex__item {
+  width: 50%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  order: 1;
+}
+
+.flex__item__important {
+  width: 100%;
+  order: 0;
+}
+
+img {
+  width: 100%;
+}

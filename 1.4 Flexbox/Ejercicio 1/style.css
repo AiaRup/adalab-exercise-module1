@@ -1,0 +1,14 @@
+.flex__container {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  background-color: #444;
+  flex-direction: row;
+}
+
+.flex__item {
+  height: 60px;
+  width: 60px;
+  background-color: #399;
+  margin: 5px;
+}

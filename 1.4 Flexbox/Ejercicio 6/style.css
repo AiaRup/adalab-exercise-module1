@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 50px auto;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+header {
+  background-color: rgb(243, 64, 64);
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+  padding: 10px;
+}
+
+.aside1 {
+  background-color: yellow;
+}
+
+.aside2 {
+  background-color: magenta;
+}
+
+article {
+  background-color: rgb(67, 168, 236);
+  flex: 2;
+  padding: 10px;
+}
+
+footer {
+  background-color: green;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.content p {
+  line-height: 1.5;
+}
+
+.empresa {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.social__link__list {
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+}
+
+.social__link__list li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.footer {
+  position: relative;
+  padding: 20px;
+}
+
+.cookies {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 100px;
+  background-color: rgba(102, 102, 102, 0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}

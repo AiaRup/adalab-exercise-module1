@@ -1,0 +1,15 @@
+// Core
+@import 'core/settings';
+@import 'core/mixins';
+
+// Layout
+@import 'layout/header';
+@import 'layout/main';
+
+// components
+@import 'components/button';
+
+body {
+  background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
+  height: 100vh;
+}
